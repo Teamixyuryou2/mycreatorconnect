@@ -1,5 +1,6 @@
 import '../index.css';
 import React, { useEffect, useState } from 'react';
+import { apiOauth } from '../assets/apiconfig';
 
 
 
@@ -127,7 +128,7 @@ function Navbar({ user, logout }){
                     <li class="defaultbut"><a href="landing">Home</a></li>
                 </div>
                 <div class="flex items-center my-5 float-right">
-                    <li class="defaultbut"><a href="http://localhost:8080/oauth/discord">Log In</a></li>
+                    <li class="defaultbut"><a href={apiOauth}>Log In</a></li>
                     <li class="defaultbut"><a href="contact">Contact Us</a></li>        
                 </div>
             </ul>

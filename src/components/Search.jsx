@@ -1,6 +1,7 @@
 import '../index.css';
 import UserDisplay from './UserDisplay.jsx';
 import React, { useEffect, useState } from 'react';
+import { apiUserList } from '../assets/apiconfig.jsx';
 
 function Search(props) {
 
@@ -16,7 +17,7 @@ function Search(props) {
     const name = ''; // `http://localhost:8080/user?page=${page}&limit=${limit}&name=whateveryournam`
     const tags = '' // `http://localhost:8080/user?page=${page}&limit=${limit}&tags[]=suerpman,batman`
 
-    const listEnvelope = await fetch(`http://localhost:8080/user?page=${page}&limit=${limit}`, {
+    const listEnvelope = await fetch(`${apiUserList}?page=${page}&limit=${limit}`, {
       method: 'get',    
       // mode: 'no-cors',
       credentials: 'include'});
