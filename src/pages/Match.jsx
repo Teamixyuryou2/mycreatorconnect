@@ -40,8 +40,8 @@ function Match(props){
       console.log('list users', list)
   
       const myuserdata = list;
-      setListLength(allusers.length);
       setAllUsers(myuserdata);
+      setListLength(allusers.length);
       setDisplay(myuserdata[currentdata]);
     }
   
@@ -57,7 +57,7 @@ function Match(props){
         // console.log("rand", randnum)
         
         // setRandnum(Math.floor(Math.random() * listlength));
-        setCurrentData(3);
+        // setCurrentData(3);
         setCurrentData(Math.floor(Math.random() * listlength));
     }
   
