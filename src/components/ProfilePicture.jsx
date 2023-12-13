@@ -74,8 +74,8 @@ function ProfilePicture(props){
                         </div>
                     </div>
                     <div class="flex justify-evenly w-full item-center pb-4">
-                        <button class="rounded-full bg-emerald-400 h-[30px] w-[40%]">Youtube</button>
-                        <button class="rounded-full bg-emerald-400 h-[30px] w-[40%]">Save Changes</button>
+                        {/* <button class="rounded-full bg-emerald-400 h-[30px] w-[40%]">Youtube</button>
+                        <button class="rounded-full bg-emerald-400 h-[30px] w-[40%]">Save Changes</button> */}
                     </div>
             </div>
         </div>

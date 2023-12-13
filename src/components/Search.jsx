@@ -13,7 +13,7 @@ function Search(props) {
 
     // list of users
     const page = 0;
-    const limit = 10;
+    const limit = 5;
     const name = ''; // `http://localhost:8080/user?page=${page}&limit=${limit}&name=whateveryournam`
     const tags = '' // `http://localhost:8080/user?page=${page}&limit=${limit}&tags[]=suerpman,batman`
 
