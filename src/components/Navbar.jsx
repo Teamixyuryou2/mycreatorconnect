@@ -99,7 +99,7 @@ function Navbar({ user, logout }){
             </div>
             <ul class="relative flex h-30 mx-auto justify-between">
                 <div class="relative flex items-center my-5 mx-5">
-                    <li class="defaultbut"><a href="landing">Home</a></li>
+                    <li class="defaultbut"><a href="/">Home</a></li>
                     <li class="defaultbut"><a href="profile">Profile</a></li>
                     <li class="defaultbut"><a href="match">Match</a></li>  
                 </div>
@@ -125,11 +125,11 @@ function Navbar({ user, logout }){
             </div>
             <ul class="relative flex h-30 mx-auto justify-between">
                 <div class="relative flex items-center my-5 mx-5">
-                    <li class="defaultbut"><a href="landing">Home</a></li>
+                    <li class="defaultbut"><a href="/">Home</a></li>
                 </div>
                 <div class="flex items-center my-5 float-right">
                     <li class="defaultbut"><a href={apiOauth}>Log In</a></li>
-                    <li class="defaultbut"><a href="contact">Contact Us</a></li>        
+                    <li class="defaultbut"><a href="/contact">Contact Us</a></li>        
                 </div>
             </ul>
             </nav>
