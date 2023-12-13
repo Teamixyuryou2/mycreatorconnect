@@ -3,8 +3,8 @@ import '../index.css';
 
 function UserDisplay({ username, fullName, profileImage, subscriberCount, bio }) {
     return (
-      <div className="max-w-md mx-auto my-5 border-black border-4 rounded-lg p-4 bg-white">
-        <div className="flex items-center">
+      <div className="max-w-md mx-auto my-5 border-black border-4 rounded-lg p-4 bg-white w-full">
+        <div className="flex items-center w-[75%]">
           <img
             src={profileImage}
             alt={`${username}'s profile`}
@@ -22,7 +22,6 @@ function UserDisplay({ username, fullName, profileImage, subscriberCount, bio })
               <div className="flex justify-center space-x-4 mt-2">
                 <button className="bg-blue-500 text-white px-4 py-2 rounded-md">Message</button>
                 <button className="bg-red-500 text-white px-4 py-2 rounded-md">Block</button>
-                <button className="bg-green-500 text-white px-4 py-2 rounded-md">♥</button>
               </div>
 
             </div>
