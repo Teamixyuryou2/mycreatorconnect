@@ -24,7 +24,7 @@ function ProfileTags(props){
         async function apiUpdateSelf(tag) {
             tags.push(tag || []);
             console.log("zzxczxc:" , tags);
-            const uniquetags = [...new Set(tags)].filter((t) => t && t.trim() != '');
+            const uniquetags = [...new Set(tags)].filter((t) => t && ('string' === typeof t) && t.trim() != null);
             console.log("originaludpate:" , uniquetags);
             // avatar?: string;
             // firstName?: string;
