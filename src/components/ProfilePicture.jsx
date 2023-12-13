@@ -49,7 +49,7 @@ function ProfilePicture(props){
               },
               body: JSON.stringify({'avatar': imageUrl}),
               credentials: 'include'});
-              const data = envelope.status == 200 ? await envelope.json() : null;
+              const data = [200, 201, 304].includes(envelope.status) ? await envelope.json() : null;
               return data;
           }
           await apiUpdateSelf(url);

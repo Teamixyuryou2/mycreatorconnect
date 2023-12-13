@@ -57,7 +57,7 @@ function NameBio(props){
               },
               body: JSON.stringify({'firstName': name, 'bio':bio}),
               credentials: 'include'});
-              const data = envelope.status == 200 ? await envelope.json() : null;
+              const data = [200, 201, 304].includes(envelope.status)? await envelope.json() : null;
               return data;
           }
           await apiUpdateSelf(myname, mybio);

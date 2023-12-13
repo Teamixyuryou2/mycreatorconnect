@@ -37,7 +37,7 @@ function ProfileTags(props){
               },
               body: JSON.stringify({'tags': uniquetags}),
               credentials: 'include'});
-              const data = envelope.status == 200 ? await envelope.json() : null;
+              const data = [200, 201, 304].includes(envelope.status)? await envelope.json() : null;
               setTags(uniquetags);
               return data;
           }

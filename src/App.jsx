@@ -12,7 +12,7 @@ async function apiGetCurrentUser() {
   const envelope = await fetch(apiGetUserUrl, {
     method: 'get',    
     credentials: 'include'});
-    const user = envelope.status == 200 ? await envelope.json() : null;
+    const user = [200, 201, 304].includes(envelope.status)? await envelope.json() : null;
     return user;
 }
 // async function apiUpdateSelf(body) {
