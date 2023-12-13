@@ -18,6 +18,13 @@ function UserDisplay({ username, fullName, profileImage, subscriberCount, bio })
                 <p className="text-gray-500">Subscribers: {subscriberCount}</p>
               </div>
               <p className="text-gray-700 px-4">{bio}</p>
+
+              <div className="flex justify-center space-x-4 mt-2">
+                <button className="bg-blue-500 text-white px-4 py-2 rounded-md">Message</button>
+                <button className="bg-red-500 text-white px-4 py-2 rounded-md">Block</button>
+                <button className="bg-green-500 text-white px-4 py-2 rounded-md">♥</button>
+              </div>
+
             </div>
           </div>
         </div>
