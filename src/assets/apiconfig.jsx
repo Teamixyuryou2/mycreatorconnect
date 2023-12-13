@@ -1,5 +1,5 @@
 
-const baseUrl = 'http://userappdev-env.eba-kbgrydns.us-east-1.elasticbeanstalk.com';
+const baseUrl = 'https://app.linkapphost.com';
 export const apiGetUserUrl = `${baseUrl}/user/self`
 export const apiLogoutUrl = `${baseUrl}/oauth/logout`
 export const apiUpdateSelfUrl = `${baseUrl}/user/self`
