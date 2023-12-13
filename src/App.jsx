@@ -122,7 +122,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element = {<Landingpage user={user} logout={logout}/>} />
-        <Route path="/landing" element={<Landingpage user={user} logout={logout}/>} />
+        <Route path="/" element={<Landingpage user={user} logout={logout}/>} />
         <Route path="/tutorial" element={<Tutorialpage user={user} logout={logout}/>} />
         <Route path="/contact" element={<ContactUs user={user} logout={logout}/>} />
         {/* <Route element={<ProtectedRoutes user={user}/>}> */}
