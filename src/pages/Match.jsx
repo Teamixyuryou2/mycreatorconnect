@@ -41,7 +41,7 @@ function Match(props){
   
       const myuserdata = list;
       setAllUsers(myuserdata);
-      setListLength(allusers.length);
+      setListLength(myuserdata.length);
       setDisplay(myuserdata[currentdata]);
     }
   

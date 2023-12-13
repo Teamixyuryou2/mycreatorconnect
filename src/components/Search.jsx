@@ -33,7 +33,7 @@ function Search(props) {
         filteredlist.push(foreignUserData)
       }
       else{
-        if (foreignUserData.name == search){
+        if ((foreignUserData.name || '').replaceAll(" ", "").toLowerCase().includes(search.replaceAll(" ", "").toLowerCase())){
           filteredlist.push(foreignUserData)
         }
       }

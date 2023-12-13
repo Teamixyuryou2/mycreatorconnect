@@ -23,6 +23,7 @@ function ProfileTags(props){
         console.log('tagtoupdate', tag);
         async function apiUpdateSelf(tag) {
             tags.push(tag || []);
+            console.log("zzxczxc:" , tags);
             const uniquetags = [...new Set(tags)].filter((t) => t && t.trim() != '');
             console.log("originaludpate:" , uniquetags);
             // avatar?: string;
