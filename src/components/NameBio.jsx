@@ -101,7 +101,7 @@ function NameBio(props){
                         {props.username}
                     </div>
                     <div class="flex justify-start w-full item-center h-[50%] w-full pb-6 text-lg text-ellipsis overflow-hidden bg-slate-200">
-                        {props.userbio} asdsa
+                        {props.userbio} 
                     </div>
             </div>
             }
