@@ -1,8 +1,10 @@
-# React + Vite
+# Creator Connect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A team effort between Shakir, Dino, Yousef, and Yuyou
+Contains all frontend aspects of the project
 
-Currently, two official plugins are available:
+Demo Video below
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+https://github.com/Teamixyuryou2/mycreatorconnect/assets/116759953/b678f177-550a-4d10-903c-00337a572d16
+
