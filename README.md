@@ -24,7 +24,7 @@ https://github.com/Teamixyuryou2/mycreatorconnect/assets/116759953/b678f177-550a
 [![My Skills](https://skillicons.dev/icons?i=nextjs,react,tailwind,aws,vite)](https://skillicons.dev)
 
 
-Tech Stack:
+# Tech Stack:
 - React
 - TypeScript
 - AWS
